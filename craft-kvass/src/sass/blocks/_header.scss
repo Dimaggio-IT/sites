@@ -1,0 +1,123 @@
+.header {
+  background: url("/img/wheat-back.jpg");
+  min-height: 550px;
+  &__message {
+
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// .contacts {
+//   padding: 120px 35px 84px 52px;
+//   &__wrapper {
+//     display: grid;
+//     grid-template-columns: 400px 585px;
+//     grid-template-rows: 600px;
+//     justify-content: space-between;
+//   }
+//   &__photo {
+//     img {
+//       width: 100%;
+//       height: 100%;
+//       object-fit: cover;
+//     }
+//   }
+//   &__descr {
+//     .divider {
+//       margin: 0;
+//     }
+//   }
+//   &__text,
+//   &__social {
+//     margin-top: 20px;
+//   }
+//   &__link {
+//     max-width: 30px;
+//     max-height: 30px;
+//     margin-right: 25px;
+//     img {
+//       max-width: 30px;
+//       max-height: 30px;
+//     }
+//   }
+//   &__form {
+//     margin-top: 30px;
+//     display: grid;
+//     grid-template-rows: 45px 190px 45px;
+//     grid-template-columns: repeat(2, 280px);
+//     row-gap: 27px;
+//     column-gap: 25px;
+//     label {
+//       display: block;
+//       position: absolute;
+//       height: 18px;
+//       top: -11px;
+//       left: 12px;
+//       background-color: #fff;
+//     }
+//   }
+//   &__input {
+//     position: relative;
+//     input {
+//       padding: 14px 20px 14px 20px;
+//       width: 100%;
+//       height: 100%;
+//       font-size: 12px;
+//     }
+//   }
+//   &__textarea {
+//     position: relative;
+//     grid-column: 1 / 3;
+//     textarea {
+//       padding: 20px;
+//       font-size: 12px;
+//       width: 100%;
+//       height: 100%;
+//       resize: none;
+//     }
+//   }
+//   &__btn {
+//     border: none;
+//     font-weight: 700;
+//     font-size: 14px;
+//     line-height: 21px;
+//     margin-right: 20px;
+//   }
+//   &__trigger-policy {
+//     display: grid;
+//     grid-template-columns: repeat(2, auto);
+//     grid-column: 1 / 3;
+//   }
+//   &__policy-block {
+//     display: flex;
+//     align-items: center;
+//     font-weight: 500;
+//     font-size: 12px;
+//     line-height: 18px;
+//     color: $text-color;
+//     span {
+//       margin-left: 10px;
+//     }
+//   }
+// }

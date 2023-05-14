@@ -1,0 +1,49 @@
+@import "libs/bootstrap-reboot.min";
+@import url('https://fonts.cdnfonts.com/css/arial-mt?styles=48920,48930');
+
+@import "base/variables";
+@import "base/mixins";
+
+* {
+  font-family: 'Arial MT', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: $background-color;
+  color: $text-color;
+}
+
+.container {
+  margin: 0 auto;
+  &--wide {
+    max-width: 1015px;
+  }
+  &--narrow {
+    max-width: 800px;
+  }
+}
+
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+@import "blocks/header";
+@import "blocks/logo";
+@import "blocks/menu";
+
+// @import "blocks/button";
+// @import "blocks/title";
+// @import "blocks/promo";
+// @import "blocks/sidepanel";
+// @import "blocks/hamburger";
+// @import "blocks/about";
+// @import "blocks/resume";
+// @import "blocks/skills";
+// @import "blocks/portfolio";
+// @import "blocks/price";
+// @import "blocks/contacts";
+// @import "blocks/media";
