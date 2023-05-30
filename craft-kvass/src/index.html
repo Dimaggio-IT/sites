@@ -3,86 +3,96 @@
   <head>
     <meta charset="utf-8" />
     <title>Кваст</title>
-
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/style.min.css" />
   </head>
   <body>
     <section class="header">
-      <div class="container container--narrow">
-        <div class="logo">
-          <img alt="Кваст" src="/img/logo.png" width="140" height="76" />
+      <div class="container container--xs">
+        <div class="clearfix">
+          <div class="logo">
+            <img alt="Кваст" src="./img/logo.png" width="140" height="76" />
+          </div>
+          <ul class="header__menu menu">
+            <li class="menu__item"><a href="#">История</a></li>
+            <li class="menu__item"><a href="#">Производство</a></li>
+            <li class="menu__item"><a href="#">Ассортимент</a></li>
+            <li class="menu__item"><a href="#">Где купить</a></li>
+          </ul>
         </div>
-        <ul class="menu clearfix">
-          <li class="menu__item"><a href="#">История</a></li>
-          <li class="menu__item"><a href="#">Где купить</a></li>
-          <li class="menu__item"><a href="#">Производство</a></li>
-          <li class="menu__item"><a href="#">Ассортимент</a></li>
-        </ul>
         <div class="header__message">Крафтовый квас <br />всему голова!</div>
       </div>
     </section>
 
     <section class="innovation">
-      <h2>Новинки</h2>
-      <div class="innovation-items">
-        <div class="innovation-item">
-          <h3>Вахтёр</h3>
-          <div class="innovation-table">
-            <table>
-              <tr>
-                <td>Алк.</td>
-                <td>&lt; 1%</td>
-              </tr>
-              <tr>
-                <td>Ккал</td>
-                <td>35</td>
-              </tr>
-            </table>
+      <div class="container container--xs">
+        <h2 class="title">Новинки</h2>
+        <div class="innovation__items clearfix">
+          <div class="innovation__item good">
+            <h3 class="title">Вахтёр</h3>
+            <div class="clearfix">
+              <div class="good__right">
+                  <table>
+                    <tr>
+                      <td>Алк.</td>
+                      <td>&lt; 1%</td>
+                    </tr>
+                    <tr>
+                      <td>Ккал</td>
+                      <td>35</td>
+                    </tr>
+                  </table>
+                <p>Ржаной хлеб, Вода, Солод, Соль</p>
+              </div>
+              <img
+                class="good__left"
+                src="./img/bottle-left.jpg"
+                width="319"
+                height="459"
+              />
+            </div>
+            <p class="good__description">
+              Терпкий и мощный, вкус этого кваса взбодрит после тяжёлого дня и
+              придаст сил для вечерних приключений!
+            </p>
+            <div class="good__btns">
+              <a href="#">Подробнее</a>
+              <a href="#">Купить</a>
+              <b>150 Р.</b>
+            </div>
           </div>
-          <p>Ржаной хлеб, Вода, Солод, Соль</p>
-          <img src="./img/bottle-left.jpg" width="319" height="459" />
-          <p>
-            Терпкий и мощный, вкус этого кваса взбодрит после тяжёлого дня и
-            придаст сил для вечерних приключений!
-          </p>
-          <div class="innovation-btns">
-            <a href="#">Подробнее</a>
-            <a href="#">Купить</a>
-            <b>150 Р.</b>
-          </div>
-        </div>
-        <div class="innovation-item">
-          <h3>Романтик</h3>
-          <div class="innovation-table">
-            <table>
-              <tr>
-                <td>Алк.</td>
-                <td>&lt; 0,5%</td>
-              </tr>
-              <tr>
-                <td>Ккал</td>
-                <td>27</td>
-              </tr>
-            </table>
-          </div>
-          <p>Ячменный хлеб, Вода, Солод, Апельсин</p>
-          <img src="./img/bottle-right.jpg" width="319" height="459" />
-          <p>
-            Лёгкий и освежающий напиток поможет сохранять отличное настроение в
-            течение всего дня.
-          </p>
-          <div class="innovation-btns">
-            <a href="#">Подробнее</a>
-            <a href="#">Купить</a>
-            <b>90 Р.</b>
-          </div>
+          <!-- <div class="innovation__item good">
+            <h3 class="title innovation__title">Романтик</h3>
+            <div class="good__table">
+              <table>
+                <tr>
+                  <td>Алк.</td>
+                  <td>&lt; 0,5%</td>
+                </tr>
+                <tr>
+                  <td>Ккал</td>
+                  <td>27</td>
+                </tr>
+              </table>
+            </div>
+            <p>Ячменный хлеб, Вода, Солод, Апельсин</p>
+            <img src="./img/bottle-right.jpg" width="319" height="459" />
+            <p>
+              Лёгкий и освежающий напиток поможет сохранять отличное настроение
+              в течение всего дня.
+            </p>
+            <div class="good__btns">
+              <a href="#">Подробнее</a>
+              <a href="#">Купить</a>
+              <b>90 Р.</b>
+            </div>
+          </div> -->
         </div>
       </div>
     </section>
 
-    <section class="advantage">
+    <!-- <section class="advantage">
       <ul class="advantage-items">
         <li class="advantage-item">
           <h2>Варим сами</h2>
@@ -282,6 +292,6 @@
           >HTML Academy</a
         >
       </div>
-    </section>
+    </section> -->
   </body>
 </html>

@@ -1,11 +1,11 @@
-@import "libs/bootstrap-reboot.min";
-@import url('https://fonts.cdnfonts.com/css/arial-mt?styles=48920,48930');
+// @import "libs/bootstrap-reboot.min";
+// @import url('https://fonts.cdnfonts.com/css/arial-mt?styles=48920,48930');
 
 @import "base/variables";
 @import "base/mixins";
 
 * {
-  font-family: 'Arial MT', sans-serif;
+  font-family: 'Arial', sans-serif;
   margin: 0;
   padding: 0;
 }
@@ -13,14 +13,18 @@
 body {
   background-color: $background-color;
   color: $text-color;
+  font-size: $font-size;
+  line-height: $line-height--30;
+  margin: 0;
+  padding: 0;
 }
 
 .container {
   margin: 0 auto;
-  &--wide {
-    max-width: 1015px;
+  &--md {
+    max-width: 1010px;
   }
-  &--narrow {
+  &--xs {
     max-width: 800px;
   }
 }
@@ -31,9 +35,12 @@ body {
   clear: both;
 }
 
-@import "blocks/header";
 @import "blocks/logo";
 @import "blocks/menu";
+@import "blocks/header";
+@import "blocks/good";
+@import "blocks/title";
+@import "blocks/innovation";
 
 // @import "blocks/button";
 // @import "blocks/title";

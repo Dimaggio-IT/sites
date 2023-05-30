@@ -1,32 +1,24 @@
 .header {
-  background: url("/img/wheat-back.jpg");
-  min-height: 550px;
+  background: url("../img/wheat-back.jpg") no-repeat bottom;
+  background-size: cover;
+  min-height: 490px;
+  padding-top: 60px;
+  color: $text-color--lighter;
+  background-color: $background-header;
   &__message {
-
+    width: 100%;
+    margin: 0 auto;
+    font-size: $font-size--h1;
+    font-weight: bold;
+    color: $header-message-color;
+    text-align: center;
+    line-height: $font-size--h1;
+    margin-top: 120px;
+  }
+  &__menu {
+    margin-top: 10px;
   }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 // .contacts {
 //   padding: 120px 35px 84px 52px;

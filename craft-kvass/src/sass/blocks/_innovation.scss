@@ -1,0 +1,16 @@
+.innovation {
+  background-color: $background-color;
+  padding-top: 90px;
+  &__items {
+    width: 800px;
+    padding-top: 95px;
+  }
+  &__item {
+    float: left;
+    width: 336px;
+    padding: 0 35px;
+  }
+  &__item:nth-child(2n) {
+    border-left: none;
+  }
+}
