@@ -1,0 +1,43 @@
+.history {
+  padding-top: 80px;
+  &__title {
+    margin-bottom: 60px;
+  }
+  &__list {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-bottom: 80px;
+  }
+  &__item:not(:last-child) {
+    margin-bottom: 60px;
+  }
+  &__group {
+    margin-bottom: 19px;
+  }
+  &__name {
+    float: left;
+
+    font-size: 20px;
+    line-height: 30px;
+    color: #000000;
+    text-transform: uppercase;
+  }
+  &__link {
+    float: right;
+    a {
+      color: #834700;
+      text-decoration: underline;
+    }
+  }
+  &__image {
+    float: right;
+    padding-top: 10px;
+  }
+  &__text {
+    float: left;
+    width: 501px;
+    height: 120px;
+
+    font-size: $font-size;
+  }
+}

@@ -1,0 +1,49 @@
+.press {
+  background-color: $press-color;
+  padding-top: 80px;
+  padding-bottom: 90px;
+
+  &__title {
+    margin-bottom: 76px;
+  }
+  &__group {
+    margin: 0;
+  }
+  &__text {
+    width: 693px;
+    margin-bottom: 34px;
+    position: relative;
+    font-size: 16px;
+    line-height: 30px;
+    &::before {
+      content: '';
+
+      position: absolute;
+      top: 7px;
+      left: -106px;
+      width: 41px;
+      height: 41px;
+
+      background-image: url('/img/quotes.png');
+      background-repeat: no-repeat;
+      background-size: 100% auto;
+    }
+  }
+  &__link {
+    float: right;
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-style: normal;
+    padding-top: 11px;
+  }
+  &__button {
+    font-weight: bold;
+    width: 124px;
+    float: left;
+    color: rgba(0, 0, 0, 0.3);
+    background-color: transparent;
+    box-shadow: 0 0 0 2px rgba(0, 0, 0, 0.3) inset;
+  }
+}

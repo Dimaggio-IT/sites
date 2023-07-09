@@ -2,6 +2,7 @@
 *.psd
 *.zip
 *.rar
+*.sketch
 
 # compiled output
 /dist

@@ -1,21 +1,24 @@
 .good {
-  border-left: 1px solid $innovation-devider-color;
-  border-right: 1px solid $innovation-devider-color;
-  &__right {
-    float: right;
+  &__title {
+    padding-left: 33px;
+  }
+  &__wrapper {
+    position: relative;
+    padding: 0 25px 0 35px;
+  }
+  &__structure {
+    position: relative;
     width: 150px;
-    margin-top: 35px;
-    p {
-      font-size: 14px;
-      line-height: 24px;
-      margin-top: 8px;
-      color: #404040;
-    }
+    margin-left: auto;
+    padding-top: 24px;
+    z-index: 10;
   }
-  &__left {
-    float: left;
+  &__image {
+    position: absolute;
+    top: 29px;
+    left: 43px;
   }
-  table {
+  &__table {
     width: 100%;
     border: 1px solid $innovation-devider-color;
     border-collapse: collapse;
@@ -23,17 +26,40 @@
     font-size: $font-size;
     line-height: 41px;
     color: $text-color--darker;
-    font-weight: bold;
+    font-weight: normal;
     text-transform: uppercase;
-    th {
-      border: 1px solid $innovation-devider-color;
-    }
+    margin-bottom: 11px;
+    padding-top: 49px;
     td {
       padding-left: 10px;
       border: 1px solid $innovation-devider-color;
     }
   }
+  &__text {
+    font-size: $font-size--small;
+    line-height: $line-height--24;
+  }
   &__description {
-    width: 100%;
+    padding: 0 25px 0 35px;
+    margin-top: 332px;
+  }
+  &__actions {
+    margin-top: 58px;
+    padding-left: 33px;
+  }
+  &__button-more {
+    background-color: white;
+    color: $text-color-button-more;
+    width: 102px;
+    margin-right: 7px;
+    float: left;
+  }
+  &__button-buy {
+    float: left;
+    margin-right: 25px;
+  }
+  &__price {
+    margin-top: 11px;
+    float: left;
   }
 }

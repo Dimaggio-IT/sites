@@ -1,14 +1,14 @@
 .innovation {
   background-color: $background-color;
-  padding-top: 90px;
+  padding-top: 80px;
   &__items {
-    width: 800px;
-    padding-top: 95px;
+    margin-top: 74px;
   }
   &__item {
     float: left;
-    width: 336px;
-    padding: 0 35px;
+    width: 398px;
+    border-left: 1px solid $innovation-devider-color;
+    border-right: 1px solid $innovation-devider-color;
   }
   &__item:nth-child(2n) {
     border-left: none;

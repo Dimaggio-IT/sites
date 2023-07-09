@@ -1,0 +1,25 @@
+.social {
+  &__link {
+    float: left;
+    width: 70px;
+    height: 66px;
+
+    border: 1px solid #322d24;
+    border-left: none;
+    background-color: #1b1b1b;
+    background-repeat: no-repeat;
+    background-position: center;
+    &:first-child {
+      border-left: 1px solid #322d24;
+    }
+    &--inst {
+      background-image: url('/img/icon-insta.png');
+    }
+    &--fb {
+      background-image: url('/img/icon-fb.png');
+    }
+    &--vk {
+      background-image: url('/img/icon-vk.png');
+    }
+  }
+}

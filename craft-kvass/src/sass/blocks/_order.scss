@@ -1,0 +1,38 @@
+.order {
+  background-color: $background-order;
+  padding-bottom: 110px;
+  &__title {
+    padding-top: 82px;
+  }
+  &__text {
+    padding-top: 74px;
+    width: 670px;
+  }
+  &__form {
+    padding-top: 65px;
+    width: 629px;
+  }
+  &__item {
+    padding-bottom: 20px;
+    &--checkbox {
+      margin-top: 10px;
+      margin-bottom: 18px;
+    }
+  }
+  &__group {
+    .order__item {
+      width: 290px;
+      &:first-child {
+        float: left;
+      }
+      &:last-child {
+        float: right;
+      }
+    }
+  }
+  &__button {
+    width: 200px;
+  }
+  &__input {
+  }
+}

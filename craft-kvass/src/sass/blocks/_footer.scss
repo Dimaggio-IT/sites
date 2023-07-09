@@ -1,0 +1,35 @@
+.footer {
+  padding-top: 60px;
+  padding-bottom: 45px;
+  background-color: $background-footer;
+  &__logo {
+    padding-left: 40px;
+    float: left;
+  }
+  &__menu {
+    float: left;
+    margin-left: 129px;
+    margin-top: 8px;
+  }
+  &__group {
+    margin-top: 36px;
+  }
+  &__social {
+    float: left;
+    margin-right: 93px;
+    margin-left: 1px;
+  }
+  &__text {
+    float: left;
+    width: 205px;
+    margin-bottom: 0;
+    margin-top: 12px;
+
+    color: #989898;
+    font-size: 14px;
+    line-height: 20px;
+  }
+  &__copyright {
+    float: right;
+  }
+}

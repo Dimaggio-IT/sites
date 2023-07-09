@@ -1,0 +1,53 @@
+.advantage {
+  background-color: $background-advantage;
+  margin-top: 110px;
+  min-height: 410px;
+  &__items {
+    list-style: none;
+  }
+  &__item {
+    float: left;
+
+    margin-top: 80px;
+
+    font-size: $font-size;
+    line-height: $line-height--30;
+    color: $text-color;
+
+    width: 213px;
+
+    padding-top: 100px;
+
+    background-repeat: no-repeat;
+    background-position: left top;
+    &--cook {
+      margin-right: 92px;
+
+      background-image: url("/img/icon-brew.png");
+      background-size: 50px auto;
+    }
+    &--local {
+      padding-right: 93px;
+      padding-left: 95px;
+
+      border-right: 1px solid #e5b66c;
+      border-left: 1px solid #e5b66c;
+      background-position: 95px top;
+      background-image: url("/img/icon-matreshka.png");
+      background-size: 46px auto;
+    }
+    &--premium {
+      margin-left: 94px;
+      background-image: url("/img/icon-thumbsup.png");
+      background-size: 63px auto;
+    }
+  }
+  &__title {
+    text-transform: uppercase;
+    font-size: $font-size--20;
+    line-height: $line-height--30;
+    color: $text-color--darker;
+
+    padding-bottom: 19px;
+  }
+}
